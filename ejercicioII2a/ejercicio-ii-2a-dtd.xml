@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejercicio-ii-1a-dtd.xml  GRUPO 09 -->
+<?xml-stylesheet type="text/css" href="../css/ejercicio-ii-2a-dtd.css" ?>
+
+<!DOCTYPE fichero SYSTEM "ejercicio-ii-2a-dtd.dtd">
+<fichero>
+ <ficha>
+ <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="marco">Inicio</a>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <telefono tipo="celular">74897909</telefono>
+  <DUI>007805434-8</DUI>
+  <NIT>007-13042024-348</NIT>
+  <ISSS>007-13042024-348</ISSS>
+ </ficha>
+</fichero>

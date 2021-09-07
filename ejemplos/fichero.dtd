@@ -7,3 +7,7 @@
 <!ELEMENT apellido (#PCDATA)>
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT dui (#PCDATA)>
+<!ATTLIST a  
+  		href CDATA #IMPLIED
+  		xmlns CDATA #IMPLIED 
+ 		 target (_blank|_self|marco) "_blank">

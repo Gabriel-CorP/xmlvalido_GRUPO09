@@ -1,27 +1,27 @@
-﻿
-a {color:blue;display:block; text-align: left;}
-* {display:block;}
+﻿* {display:block;}
 nombre[sexo]::before {
     content: " (Genero " attr(sexo) " ) ";
-    color:rgb(6, 100, 107);
+    color:#a624c0;
 }
 nombre[sexo]::after {
     content: " sexo: " attr(sexo);
-    color:rgb(6, 100, 107);
+    color:#a624c0;
     display: block;
 }
 telefono[tipo]::before {
     content: " telefono " attr(tipo) ": ";
-    color:rgb(6, 100, 107);
+    color:#a624c0;
 }
 fichero{
-    background-color: #1e1e1e;
+   
     font-family: Comic Sans MS;
     color: #67cdfe ;
     text-align: center;
     font-size: 2em;
-    
+    background: rgb(13,0,36);
+background: linear-gradient(90deg, rgba(13,0,36,1) 0%, rgba(121,9,115,1) 51%, rgba(0,181,255,1) 100%);
 }
 apellido{
     display: inline;
 }
+a {color:rgb(255, 0, 0);display:block; text-align: left;}
