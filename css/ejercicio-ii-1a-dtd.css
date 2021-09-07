@@ -1,0 +1,25 @@
+﻿* {display:block;}
+nombre[sexo]::before {
+    content: " (Genero " attr(sexo) " ) ";
+    color:rgb(6, 100, 107);
+}
+nombre[sexo]::after {
+    content: " sexo: " attr(sexo);
+    color:rgb(6, 100, 107);
+    display: block;
+}
+telefono[tipo]::before {
+    content: " telefono " attr(tipo) ": ";
+    color:rgb(6, 100, 107);
+}
+fichero{
+    background-color: #1e1e1e;
+    font-family: Comic Sans MS;
+    color: #67cdfe ;
+    text-align: center;
+    font-size: 2em;
+    
+}
+apellido{
+    display: inline;
+}
