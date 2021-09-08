@@ -1,6 +1,6 @@
 <!-- ficha.dtd -->
 <!ELEMENT archivo (documento+)>
-<!ELEMENT documento (facultad, carrera,materia,modalidad,año?)>
+<!ELEMENT documento (facultad, carrera,materia,modalidad,aÃ±o?)>
 <!ATTLIST documento universidad  CDATA  #FIXED "Universidad de El Salvador">
 <!ELEMENT facultad (#PCDATA)>
 <!ATTLIST facultad codigo  CDATA  #REQUIRED>
@@ -22,7 +22,7 @@
 <!ATTLIST persona sexo (M|F) #REQUIRED>
 <!ELEMENT carnet (#PCDATA)>
 <!ATTLIST carnet numero CDATA #REQUIRED>
-<!ATTLIST carnet añodevencimiento CDATA #IMPLIED>
+<!ATTLIST carnet aÃ±odevencimiento CDATA #IMPLIED>
 <!ELEMENT apellido (#PCDATA)>
 <!ELEMENT nombre (#PCDATA)>
 

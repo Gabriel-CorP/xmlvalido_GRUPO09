@@ -1,21 +1,18 @@
-<!DOCTYPE fichero [
+<!-- ficha.dtd -->
+
 		<!ELEMENT fichero (ficha+)>
-		<!ELEMENT ficha (nombre, apellido, direccion*, telefono*, DUI?, NIT?,AFP?,ISSS?)>
-		<!ELEMENT nombre (#PCDATA)>
-		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+		  
+		  <!ELEMENT ficha (a,nombre, apellido, direccion*, telefono*, DUI?, NIT?,AFP?,ISSS?)>
+		  <!ELEMENT nombre (#PCDATA)>
+		  <!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
         <!ATTLIST nombre edad  CDATA  #IMPLIED>
-		<!ELEMENT apellido (#PCDATA)>
-		<!ELEMENT direccion (#PCDATA)>
-		<!ELEMENT telefono (#PCDATA)>
-		<!ATTLIST telefono tipo (fijo|celular) #IMPLIED>
-		<!ELEMENT DUI  (#PCDATA) >
-		<!ELEMENT NIT (#PCDATA) >
-		<!ELEMENT AFP (#PCDATA)>
-		<!ELEMENT ISSS (#PCDATA) >
-		<!ELEMENT a (#PCDATA) >
-		<!ATTLIST a  
-  		href CDATA #IMPLIED
-  		xmlns CDATA #IMPLIED 
- 		 target (_blank|_self|marco) "_blank">
-		]>
-<fichero>
+		    <!ELEMENT apellido (#PCDATA)>
+		    <!ELEMENT direccion (#PCDATA)>
+		    <!ELEMENT telefono (#PCDATA)>
+		    <!ATTLIST telefono tipo (fijo|celular) #IMPLIED>
+		    <!ELEMENT DUI  (#PCDATA) >
+		    <!ELEMENT NIT (#PCDATA) >
+		    <!ELEMENT AFP (#PCDATA)>
+		    <!ELEMENT ISSS (#PCDATA) >
+		    <!ELEMENT a (#PCDATA) >
+		     <!ATTLIST a  href CDATA #IMPLIED  xmlns CDATA #IMPLIED  target (_blank|_self|marco) "_blank">

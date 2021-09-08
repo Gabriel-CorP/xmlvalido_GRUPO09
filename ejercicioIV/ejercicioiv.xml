@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE fichero SYSTEM "ejercicioiv.dtd">
+<fichero>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="marco">Inicio</a>
+ <ficha>
+    <libro>
+     <isbn>29435</isbn>
+     <autor>
+      <nombre>al</nombre>
+      <apellido>ad</apellido>
+     </autor>
+     <titulo>name</titulo>
+     <subtitulo>subname</subtitulo>
+     <fechapublicacion>256567</fechapublicacion>
+     <genero>accion</genero>
+     <editorial>
+      <nombreE>af</nombreE>
+      <direccion>sgsh</direccion>
+     <telefono>i3t9</telefono> 
+     </editorial>
+    </libro>
+ </ficha>
+</fichero>
