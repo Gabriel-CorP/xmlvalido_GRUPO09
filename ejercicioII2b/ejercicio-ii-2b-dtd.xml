@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejercicio-ii-1b-dtd.xml -->
+
+<!DOCTYPE fichero SYSTEM "fichero2b.dtd">
+<fichero>
+ <ficha>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <DUI>12345678-9</DUI>
+  <fechaNacimiento dia="12" mes="12" anio="2012"></fechaNacimiento>
+  <estudios nivel="basico">Escuela Montañita</estudios>
+  <estudios nivel="avanzado">Universidad Cerro</estudios>
+  <estudios nivel="otro">Curso profesional de llanuras</estudios>
+ </ficha>
+</fichero>

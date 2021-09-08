@@ -1,0 +1,16 @@
+  <!--- fichero2b.dtd--->
+    <!ELEMENT fichero (ficha+)>
+		<!ELEMENT ficha (nombre, apellido, direccion*, (DUI | NIT), fechaNacimiento, estudios*)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+            	<!ATTLIST nombre edad  CDATA  #IMPLIED>
+		<!ELEMENT apellido (#PCDATA)>
+		<!ELEMENT direccion (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA)>
+		<!ELEMENT NIT (#PCDATA)>
+    <!ELEMENT fechaNacimiento EMPTY>
+    <!ATTLIST fechaNacimiento dia CDATA #REQUIRED>
+                <!ATTLIST fechaNacimiento mes CDATA #REQUIRED>
+                <!ATTLIST fechaNacimiento anio CDATA #REQUIRED>
+    <!ELEMENT estudios (#PCDATA)>
+                  <!ATTLIST estudios nivel (basico|avanzado|otro) #REQUIRED>
