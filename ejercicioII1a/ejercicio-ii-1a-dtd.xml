@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="../css/ejercicio-ii-1a-dtd.css" ?>
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
-		<!ELEMENT ficha (nombre, apellido, direccion*, telefono*, DUI?, NIT?,AFP?,ISSS?)>
+		<!ELEMENT ficha (a,nombre, apellido, direccion*, telefono*, DUI?, NIT?,AFP?,ISSS?)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
         <!ATTLIST nombre edad  CDATA  #IMPLIED>

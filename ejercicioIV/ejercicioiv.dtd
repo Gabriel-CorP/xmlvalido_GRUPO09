@@ -1,0 +1,20 @@
+<!ELEMENT fichero (a,ficha+)>
+<!ELEMENT a (#PCDATA) >
+<!ATTLIST a  
+  href CDATA #IMPLIED
+  xmlns CDATA #IMPLIED 
+  target (_blank|_self|marco) "_blank">
+<!ELEMENT ficha (libro)>
+<!ELEMENT libro (isbn,autor+, titulo, subtitulo?,fechapublicacion,genero+,editorial)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT autor(nombre,apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT subtitulo (#PCDATA)>
+<!ELEMENT fechapublicacion (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT editorial(nombreE, direccion, telefono)>
+<!ELEMENT nombreE (#PCDATA)>
+<!ELEMENT direccion(#PCDATA)>
+<!ELEMENT telefono(#PCDATA)>

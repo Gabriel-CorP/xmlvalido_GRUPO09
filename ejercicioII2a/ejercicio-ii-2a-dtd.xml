@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- ejercicio-ii-1a-dtd.xml  GRUPO 09 -->
 <?xml-stylesheet type="text/css" href="../css/ejercicio-ii-2a-dtd.css" ?>
-
 <!DOCTYPE fichero SYSTEM "ejercicio-ii-2a-dtd.dtd">
 <fichero>
  <ficha>
