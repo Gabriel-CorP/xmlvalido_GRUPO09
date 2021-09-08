@@ -1,0 +1,30 @@
+* {display:block;}
+persona[sexo]::before {
+    content: " (Sexo " attr(sexo) " ) ";
+    color:#a624c0;
+}
+nombre[sexo]::after {
+    content: " sexo: " attr(sexo);
+    color:#a624c0;
+    display: block;
+}
+equipo[numero]::before {
+    content: " Equipo numero " attr(numero);
+    color:#a624c0;
+}
+
+archivo{
+    font-family: serif;
+    color: #67cdfe ;
+    text-align: center;
+    font-size: 2em;
+    background-color: : #9B9B9B;
+}
+apellido,carnet,nombre{
+    display: inline;
+}
+materia[nombre]::before{
+    content: attr(nombre);
+    display: block;
+}
+
