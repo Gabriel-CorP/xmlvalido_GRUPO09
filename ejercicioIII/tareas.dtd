@@ -1,0 +1,28 @@
+<!-- ficha.dtd -->
+<!ELEMENT archivo (documento+)>
+<!ELEMENT documento (facultad, carrera,materia,modalidad,año?)>
+<!ATTLIST documento universidad  CDATA  #FIXED "Universidad de El Salvador">
+<!ELEMENT facultad (#PCDATA)>
+<!ATTLIST facultad codigo  CDATA  #REQUIRED>
+<!ELEMENT carrera (#PCDATA)>
+<!ATTLIST carrera codigo  CDATA  #REQUIRED>
+<!ELEMENT materia (equipo)>
+<!ATTLIST materia nombre  CDATA  #REQUIRED>
+<!ELEMENT modalidad (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT equipo (persona,persona,persona,persona)>
+<!ATTLIST equipo numero CDATA #REQUIRED>
+<!ATTLIST equipo tema CDATA #REQUIRED>
+<!ATTLIST equipo grupo (GT|GL|GD) #REQUIRED>
+<!ATTLIST equipo numero de grupo CDATA #REQUIRED>
+<!ATTLIST equipo profesor CDATA #REQUIRED>
+<!ATTLIST equipo actividad evaluada CDATA #IMPLIED>
+<!ATTLIST equipo porcentaje CDATA #IMPLIED>
+<!ELEMENT persona (carnet,apellido,nombre)>
+<!ATTLIST persona sexo (M|F) #REQUIRED>
+<!ELEMENT carnet (#PCDATA)>
+<!ATTLIST carnet numero CDATA #REQUIRED>
+<!ATTLIST carnet año de vencimiento CDATA #IMPLIED>
+<!ELEMENT apellido(#PCDATA)>
+<!ELEMENT nombre(#PCDATA)>
+
