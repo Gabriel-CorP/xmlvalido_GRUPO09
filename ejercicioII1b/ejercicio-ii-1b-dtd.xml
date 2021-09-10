@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejercicio-ii-1b-dtd.xml -->
+
+<!DOCTYPE fichero [
+		<!ELEMENT fichero (ficha+)>
+		<!ELEMENT ficha (nombre, apellido, direccion*, (DUI | NIT), fechaNacimiento, estudios*)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+            	<!ATTLIST nombre edad  CDATA  #IMPLIED>
+		<!ELEMENT apellido (#PCDATA)>
+		<!ELEMENT direccion (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA)>
+		<!ELEMENT NIT (#PCDATA)>
+    <!ELEMENT fechaNacimiento EMPTY>
+    <!ATTLIST fechaNacimiento dia CDATA #REQUIRED>
+                <!ATTLIST fechaNacimiento mes CDATA #REQUIRED>
+                <!ATTLIST fechaNacimiento anio CDATA #REQUIRED>
+    <!ELEMENT estudios (#PCDATA)>
+                  <!ATTLIST estudios nivel (basico|avanzado|otro) #REQUIRED>
+		]>
+<fichero>
+ <ficha>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+  <DUI>12345678-9</DUI>
+  <fechaNacimiento dia="12" mes="12" anio="2012"></fechaNacimiento>
+  <estudios nivel="basico">Escuela Montañita</estudios>
+  <estudios nivel="avanzado">Universidad Cerro</estudios>
+  <estudios nivel="otro">Curso profesional de llanuras</estudios>
+ </ficha>
+</fichero>
