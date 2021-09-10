@@ -21,4 +21,92 @@
      </editorial>
     </libro>
  </ficha>
+ 
+ <ficha>
+          <libro>
+              <isbn>1234</isbn>
+              <autor>
+                  <nombre>Mariana</nombre>      
+                  <apellido>Chávez</apellido>     
+              </autor>
+              <autor>
+                  <nombre>Pedro</nombre>      
+                  <apellido>López</apellido>
+              </autor>
+              <titulo>Herramientas de analisis</titulo>
+              <subtitulo>Herramienta 1</subtitulo>
+              <fechapublicacion>28-09-2021</fechapublicacion>
+              <genero>Genero 1</genero>
+              <genero>Genero 2</genero>
+              <editorial>
+                  <nombreE>Gerardo</nombreE>      
+                  <direccion>San Salvador</direccion>
+                  <telefono>7883-9696</telefono>
+              </editorial>
+          </libro>
+    </ficha>
+    
+    <ficha>
+          <libro>
+              <isbn>1235</isbn>
+              <autor>
+                  <nombre>Juan</nombre>      
+                  <apellido>Pérez</apellido>     
+              </autor>
+              <autor>
+                  <nombre>Kevin</nombre>      
+                  <apellido>Castro</apellido>
+              </autor>
+              <autor>
+                  <nombre>Luis</nombre>      
+                  <apellido>Hernández</apellido>
+              </autor>
+              <autor>
+                  <nombre>Pedro</nombre>      
+                  <apellido>Palacios</apellido>
+              </autor>
+              <titulo>Herramientas de Diseño</titulo>
+              <subtitulo>Herramienta 2</subtitulo>
+              <fechapublicacion>28-09-2021</fechapublicacion>
+              <genero>Genero 1</genero>
+              <genero>Genero 2</genero>
+              <genero>Genero 3</genero>
+              <editorial>
+                  <nombreE>Gerson</nombreE>      
+                  <direccion>Santa Ana</direccion>
+                  <telefono>7883-9696</telefono>
+              </editorial>
+          </libro>
+    </ficha>
+    
+    <ficha>
+          <libro>
+              <isbn>1236</isbn>
+              <autor>
+                  <nombre>Lilian</nombre>      
+                  <apellido>Henríquez</apellido>     
+              </autor>
+              <autor>
+                  <nombre>Ana</nombre>      
+                  <apellido>Castro</apellido>
+              </autor>
+              <autor>
+                  <nombre>Samuel</nombre>      
+                  <apellido>León</apellido>
+              </autor>
+              <titulo>Herramientas de analisis</titulo>
+              <fechapublicacion>28-09-2021</fechapublicacion>
+              <genero>Genero 1</genero>
+              <genero>Genero 2</genero>
+              <genero>Genero 3</genero>
+              <genero>Genero 4</genero>
+              <genero>Genero 5</genero>
+              <editorial>
+                  <nombreE>Liliana</nombreE>      
+                  <direccion>Sonsonate</direccion>
+                  <telefono>7883-9696</telefono>
+              </editorial>
+          </libro>
+    </ficha>
+    
 </fichero>
