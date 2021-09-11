@@ -12,6 +12,7 @@
 		<!ELEMENT DUI (#PCDATA)>		]>
 <fichero>
  <ficha>
+ <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="marco">Inicio</a>
   <nombre sexo="femenino" edad="17">Angelina</nombre>
   <apellido>Fernandez</apellido>
   <direccion>c/Ulises, 36</direccion>

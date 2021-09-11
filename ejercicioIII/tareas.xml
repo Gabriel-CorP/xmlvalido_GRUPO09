@@ -2,7 +2,9 @@
 <?xml-stylesheet type="text/css" href="../css/tareas.css" ?>
 <!DOCTYPE archivo SYSTEM "tareas.dtd">
 <archivo>
+
 	<documento>
+	 <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="marco">Inicio</a>
 	  <facultad codigo="FIA">
 	  	Facultad de ingenieria y arquitectura
 	  </facultad>

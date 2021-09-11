@@ -1,0 +1,27 @@
+a {color:blue;display:block; text-align: left;}
+* {display:block;}
+nombre[sexo]::before {
+    content: "Nombre: ";
+    color:rgb(0, 175, 44);
+}
+nombre[sexo]::after {
+    content: " sexo: " attr(sexo);
+    color:rgb(0, 175, 9);
+    display: block;
+}
+nombre{
+    color: rgb(146, 0, 0);
+}
+
+telefono[tipo]::before {
+    content: " telefono " attr(tipo) ": ";
+    color:rgb(9, 48, 51);
+}
+fichero{
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(146, 0, 0);
+    text-align: center;
+    font-size: 2em;
+    
+}
