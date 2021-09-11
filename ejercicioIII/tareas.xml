@@ -2,9 +2,7 @@
 <?xml-stylesheet type="text/css" href="../css/tareas.css" ?>
 <!DOCTYPE archivo SYSTEM "tareas.dtd">
 <archivo>
-
 	<documento>
-	 <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="marco">Inicio</a>
 	  <facultad codigo="FIA">
 	  	Facultad de ingenieria y arquitectura
 	  </facultad>
@@ -12,28 +10,28 @@
 	  <materia nombre="Tecnicas de programacion para internet">
 	  	<equipo numero="09" tema="xml valido" grupo="GT" numerodegrupo="1" profesor="Ing. Balmore Ortiz" actividadevaluada="Guia 32" porcentaje="10%">
 	  		<persona sexo="M">
-	  			<carnet numero="1" añodevencimiento="2026">AC16082</carnet>
+	  			<carnet numero="1" aniodevencimiento="2026">AC16082</carnet>
 	  			<apellido>Argueta</apellido>
 	  			<nombre>Mario</nombre>
 	  		</persona>
 	  		<persona sexo="M">
-	  			<carnet numero="2" añodevencimiento="2026">BH16004</carnet>
+	  			<carnet numero="2" aniodevencimiento="2026">BH16004</carnet>
 	  			<apellido>Barrios</apellido>
 	  			<nombre>Brayan</nombre>
 	  		</persona>
 	  		<persona sexo="F">
-	  			<carnet numero="3" añodevencimiento="2026">CH17013</carnet>
+	  			<carnet numero="3" aniodevencimiento="2026">CH17013</carnet>
 	  			<apellido>Castro</apellido>
 	  			<nombre>Maira</nombre>
 	  		</persona>
 	  		<persona sexo="M">
-	  			<carnet numero="4" añodevencimiento="2026">CP17005</carnet>
+	  			<carnet numero="4" aniodevencimiento="2026">CP17005</carnet>
 	  			<apellido>Corena</apellido>
 	  			<nombre>Gabriel</nombre>
 	  		</persona>
 	  	</equipo>
 	  </materia>
 	  <modalidad>Presencial</modalidad>
-	  <año>2021</año>
+	  <anio>2021</anio>
 	</documento>
 </archivo>
