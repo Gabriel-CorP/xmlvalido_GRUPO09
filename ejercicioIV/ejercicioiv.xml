@@ -2,7 +2,9 @@
 
 <!DOCTYPE fichero SYSTEM "ejercicioiv.dtd">
 <fichero>
-<a xmlns="http://www.w3.org/1999/xhtml" href="../index.html" target="marco">Inicio</a>
+<title>Biblioteca</title>
+<a id="menu" href="../index.html" xmlns="http://www.w3.org/1999/xhtml"><b>Inicio</b></a>
+  <a id="up" href="#" xmlns="http://www.w3.org/1999/xhtml"><b id="flecha">↑</b></a>
  <ficha>
     <libro>
      <isbn>29435</isbn>
