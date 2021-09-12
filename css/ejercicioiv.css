@@ -1,0 +1,143 @@
+
+title{
+    font-size:50px;
+    text-shadow: -1px 0 black, 0 3px black, 1px 0 black, 0 -1px black;
+    font-family: sans; color: white;
+    text-align: center;
+    text-decoration: bold;
+    display: block;
+    margin-bottom: 50px;
+}
+
+fichero {
+    background-color:#b71c1c;
+    display: inline-block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.5em;
+    padding:0.5em;
+    font: 2em sans-serif;
+}
+autor::before{
+    content: "nombre: \A " attr(nombre) " - " attr(apellido) " ";
+    color: white;
+    margin-left: 10px;
+    white-space: pre;
+    font-size: 30px;
+}
+
+#menu{
+	  background:#07A902;
+	  display:block;
+		position:absolute;
+		right:10px;
+		top:10px;
+	  width: 100px;
+	  margin-left: 10px;
+	  margin-top: 10px;
+	  text-decoration: none;
+	  text-align: center;
+	  font-size: 30px;
+	  color:black;
+	}
+
+ #menu:hover{
+	 background:#2CFC26;
+ }
+
+#up{
+  background:#0288a9;
+  bottom:1px;
+  display:flex;
+  height:50px;
+  text-decoration: none;
+  position:fixed;
+  right:1px;
+  width:50px;
+  border-radius: 100%;
+  align-items:center;
+  color:black;
+}
+
+#up:hover{
+  background:#26eefc;
+}
+
+#flecha{
+    position:fixed;
+right:18px;
+bottom:10px;
+}
+
+ficha{
+    background-color:#eea486;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.5em;
+    padding:0.5em;
+}
+
+autor{
+    background-color:#e7a2a2;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.2em;
+    padding:0.2em;
+}
+
+editorial{
+    background-color:#ec8ad7;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.5em;
+    padding:0.5em;
+}
+
+genero{
+    background-color:#ec94cf;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.25em;
+    padding:0.25em;
+}
+
+titulo{
+    background-color:#ada9a9;
+    color:white;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.1em;
+    padding:0.1em;
+}
+subtitulo{
+    background-color:#f87979;
+    color:white;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.1em;
+    padding:0.1em;
+}
+fechapublicacion{
+    background-color:#ada9a9;
+    color:white;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.1em;
+    padding:0.1em;
+}
+isbn{
+    background-color:#f06c6c;
+    color:white;
+    display: block;
+    border: hidden;
+    border-radius: 5px;
+    margin:0.1em;
+    padding:0.1em;
+}
